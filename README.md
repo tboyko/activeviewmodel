@@ -6,7 +6,11 @@ Quickly create view models in Rails
 
 Add this line to your application's Gemfile:
 
-    $ gem install activeviewmodel
+    gem 'activeviewmodel'
+
+And then execute:
+
+    $ bundle
 
 ## Usage
 
