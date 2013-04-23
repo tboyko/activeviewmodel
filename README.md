@@ -10,11 +10,10 @@ Add this line to your application's Gemfile:
 
 ## Usage
 
-Create a view model class with the attributes you need. Just have it inherit `ActiveViewModel::Base` and it will work with Rail's form helpers, validations, and more.
+Create a view model class with the attributes you need. Just have it inherit `ActiveViewModel::Base` and it will work with Rails form helpers, validations, and more.
 
     class Login < ActiveViewModel::Base
         attr_accessor :username, :password
-
         validates_presence_of :username, :password
     end
 
