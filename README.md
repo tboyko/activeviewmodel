@@ -1,4 +1,4 @@
-# ActiveViewModel
+# ActiveViewModel [![Code Climate](https://codeclimate.com/github/tboyko/activeviewmodel.png)](https://codeclimate.com/github/tboyko/activeviewmodel)
 
 Quickly create view models in Rails
 
