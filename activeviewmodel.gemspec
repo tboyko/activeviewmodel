@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["taylorboyko@gmail.com"]
   spec.description   = %q{Quickly create view models in Rails}
   spec.summary       = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tboyko/activeviewmodel"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
