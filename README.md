@@ -21,6 +21,15 @@ Create a view model class with the attributes you need. Just have it inherit `Ac
         validates_presence_of :username, :password
     end
 
+### Internationalization
+
+Add attribute definitions underneath this structure:
+
+    en:
+      activemodel:
+        [your_model_name]:
+          [your_model_attribute_name]: Nice Readable Attribute Name
+          
 
 ## Contributing
 
