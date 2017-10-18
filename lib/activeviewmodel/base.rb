@@ -9,6 +9,8 @@ module ActiveViewModel
       attributes.each do |name, value|
         send("#{name}=", value)
       end
+
+      yield(self) if block_given?
     end
 
     def persisted?
